@@ -1,0 +1,5 @@
+/bin/
+/dist/
+/examples/_generated/
+*.out
+cbom.json

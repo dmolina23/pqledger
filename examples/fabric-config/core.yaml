@@ -1,0 +1,14 @@
+# Excerpt of a Fabric peer core.yaml
+peer:
+  id: peer0.org1.example.com
+  BCCSP:
+    Default: SW
+    SW:
+      Hash: SHA2
+      Security: 256
+      FileKeyStore:
+        KeyStore:
+    PKCS11:
+      Library:
+      Hash: SHA2
+      Security: 256

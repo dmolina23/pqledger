@@ -1,0 +1,8 @@
+# Excerpt of a Fabric CA server configuration
+csr:
+  cn: fabric-ca-server
+  keyrequest:
+    algo: ecdsa
+    size: 256
+  ca:
+    expiry: 131400h
